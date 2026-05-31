@@ -1,0 +1,31 @@
+.carousel-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.carousel-slide {
+  width: 160px !important;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 38%;
+  z-index: 20;
+  width: 34px;
+  height: 34px;
+  border: none;
+  border-radius: 50%;
+  background: #34c94b;
+  color: #121212;
+  font-size: 20px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.carousel-left {
+  left: -16px;
+}
+
+.carousel-right {
+  right: -16px;
+}

@@ -1,0 +1,34 @@
+.card {
+  width: 160px;
+}
+
+.card-img-box {
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-img-box img {
+  width: 100%;
+  height: 205px;
+  object-fit: cover;
+  display: block;
+}
+
+.card-chip {
+  display: inline-block;
+  margin: 8px;
+  padding: 6px 10px;
+  background: #121212;
+  color: #ffffff;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.card h3 {
+  margin-top: 10px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}

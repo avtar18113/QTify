@@ -1,0 +1,145 @@
+.album-page {
+  background: #121212;
+  color: #ffffff;
+  min-height: calc(100vh - 74px);
+  padding: 28px 75px 120px;
+}
+
+.album-loading {
+  background: #121212;
+  color: #ffffff;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+.back-btn {
+  width: 34px;
+  height: 34px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  background: transparent;
+  color: #ffffff;
+  font-size: 22px;
+  cursor: pointer;
+  margin-bottom: 26px;
+}
+
+.album-hero {
+  display: flex;
+  align-items: center;
+  gap: 55px;
+  margin-bottom: 55px;
+}
+
+.album-cover {
+  width: 255px;
+  height: 300px;
+  border-radius: 14px;
+  object-fit: cover;
+}
+
+.album-info h1 {
+  font-size: 34px;
+  margin-bottom: 14px;
+}
+
+.album-info p {
+  font-size: 17px;
+  margin-bottom: 10px;
+  color: #f1f1f1;
+}
+
+.album-meta {
+  font-weight: 600;
+}
+
+.album-actions {
+  display: flex;
+  gap: 20px;
+  margin-top: 16px;
+}
+
+.shuffle-btn {
+  background: #34c94b;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 24px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.library-btn {
+  background: transparent;
+  color: #34c94b;
+  border: 1px solid #34c94b;
+  border-radius: 10px;
+  padding: 12px 24px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.song-table {
+  width: 100%;
+}
+
+.song-header,
+.song-row {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 100px;
+  align-items: center;
+}
+
+.song-header {
+  padding-bottom: 14px;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.song-row {
+  min-height: 72px;
+  border-bottom: 1px solid #ffffff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.song-row:hover,
+.active-song {
+  background: rgba(52, 201, 75, 0.12);
+}
+
+.song-title {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.song-title img {
+  width: 52px;
+  height: 52px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .album-page {
+    padding: 24px 18px 120px;
+  }
+
+  .album-hero {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+  }
+
+  .album-cover {
+    width: 100%;
+    height: 320px;
+  }
+
+  .song-header,
+  .song-row {
+    grid-template-columns: 1.8fr 1fr 60px;
+    font-size: 12px;
+  }
+}

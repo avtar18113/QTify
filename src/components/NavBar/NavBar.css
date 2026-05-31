@@ -1,0 +1,26 @@
+.navbar {
+  min-height: 74px;
+  background: #34c94b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+  gap: 24px;
+}
+.navbar {
+  position: relative;
+  z-index: 1000;
+}
+.feedback-btn {
+  background: #121212;
+  color: #34c94b;
+  padding: 12px 22px;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 18px;
+  }
+}

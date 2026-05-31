@@ -1,0 +1,11 @@
+.cardContainer{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 10px;
+}
+.sectionWrapper{
+    padding: 0px 30px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}

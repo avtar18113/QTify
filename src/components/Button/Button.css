@@ -1,0 +1,7 @@
+.custom-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 700;
+  border-radius: 12px;
+}

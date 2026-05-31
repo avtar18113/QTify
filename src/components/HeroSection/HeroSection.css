@@ -1,0 +1,32 @@
+.hero-section {
+  min-height: 270px;
+  background: #121212;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 55px;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero-content h1,
+.hero-content h2 {
+  font-size: 32px;
+  line-height: 1.4;
+}
+
+.hero-image {
+  font-size: 110px;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+  }
+
+  .hero-content h1,
+  .hero-content h2 {
+    font-size: 24px;
+  }
+}
